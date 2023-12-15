@@ -1,18 +1,24 @@
 # facial-recognition-low-light
-Welcome to the facial-recognition-low-light repository! This project is a Python implementation designed for facial recognition in challenging low-light conditions, integrating traditional image processing and Convolutional Neural Network (CNN) approaches.
+Welcome to the facial-recognition-low-light repository! This Python implementation is tailored for robust facial recognition in challenging low-light conditions, employing a hybrid methodology that seamlessly integrates traditional image processing, Haar Cascade, MobileNetSSD, and Convolutional Neural Network (CNN) techniques.
 
-
-# Facial Recognition in Low-Light Conditions
 ## Overview:
-This repository presents a Python implementation for facial recognition in low-light conditions, employing a hybrid approach that seamlessly integrates traditional image processing and advanced Convolutional Neural Network (CNN) techniques. The project is designed to enhance facial recognition accuracy under challenging lighting scenarios.
+This repository introduces a comprehensive Python implementation for facial recognition in low-light conditions. The hybrid approach fuses time-tested image processing methods with cutting-edge technologies like Haar Cascade, MobileNetSSD, and CNN. The project is meticulously designed to elevate facial recognition accuracy under the constraints of challenging lighting scenarios.
 
 ## Key Features:
 
-## Modular Structure: The codebase is organized into three key files:
+### Modular Structure: 
+The codebase exhibits a well-organized structure across three essential files:
 
-- data_preprocessing.py: Manages image preprocessing using OpenCV, ensuring standardized and high-quality data.
-facial_recognition.py: Implements a facial recognition system with TensorFlow, leveraging a pre-trained CNN for robust feature extraction.
-- main.py: Serves as the main application file, showcasing a simple command-line interface for easy testing.
-  
-## Hybrid Methodology: 
-The project adopts a hybrid methodology, combining well-established image processing techniques with the power of deep learning through a CNN. This synergistic approach significantly improves facial recognition accuracy in low-light scenarios.
+- `data_preprocessing.py`: Manages image preprocessing using OpenCV, ensuring standardized and high-quality data.
+- `facial_recognition.py`: Implements a facial recognition system with TensorFlow, incorporating Haar Cascade, MobileNetSSD, and CNN for robust feature extraction.
+- `main.py`: Functions as the primary application file, featuring a simple command-line interface for straightforward testing.
+
+### Hybrid Methodology: 
+This project pioneers a hybrid methodology, skillfully merging established image processing techniques with the prowess of deep learning via Haar Cascade, MobileNetSSD, and CNN. This synergistic approach significantly enhances facial recognition accuracy in low-light scenarios.
+
+
+https://github.com/opencv/opencv/tree/master/data/haarcascades
+https://github.com/chuanqi305/MobileNet-SSD/blob/master/deploy.prototxt
+https://www.kaggle.com/datasets/soumikrakshit/dark-face-dataset/
+https://www.kaggle.com/datasets/sourabh7211/raw-low-light-smartphone-images/data
+https://www.kaggle.com/code/kerneler/starter-exclusively-dark-image-dataset-843f80cf-5/notebook
