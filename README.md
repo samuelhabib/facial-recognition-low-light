@@ -22,5 +22,12 @@ This project provides a modular system for face detection and recognition using 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/face-detection-recognition.git
+
+## References
+https://github.com/opencv/opencv/tree/master/data/haarcascades
+https://github.com/chuanqi305/MobileNet-SSD/blob/master/deploy.prototxt
+https://www.kaggle.com/datasets/soumikrakshit/dark-face-dataset/
+https://www.kaggle.com/datasets/sourabh7211/raw-low-light-smartphone-images/data
+https://www.kaggle.com/code/kerneler/starter-exclusively-dark-image-dataset-843f80cf-5/notebook
    cd face-detection-recognition
 2. Install requirement file.
