@@ -1,4 +1,5 @@
 # Face Detection and Recognition System
+Welcome to the facial-recognition-low-light repository! This Python implementation is tailored for robust facial recognition in challenging low-light conditions, employing a hybrid methodology that seamlessly integrates traditional image processing, Haar Cascade, face_recognition techniques.
 
 ## Overview
 This project provides a modular system for face detection and recognition using Python, OpenCV, and the face_recognition library. The system is designed to enhance images, detect faces, and recognize faces in a user-friendly manner.
