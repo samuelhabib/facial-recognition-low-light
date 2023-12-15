@@ -1,24 +1,25 @@
-# facial-recognition-low-light
-Welcome to the facial-recognition-low-light repository! This Python implementation is tailored for robust facial recognition in challenging low-light conditions, employing a hybrid methodology that seamlessly integrates traditional image processing, Haar Cascade, MobileNetSSD, and Convolutional Neural Network (CNN) techniques.
+# Face Detection and Recognition System
 
-## Overview:
-This repository introduces a comprehensive Python implementation for facial recognition in low-light conditions. The hybrid approach fuses time-tested image processing methods with cutting-edge technologies like Haar Cascade, MobileNetSSD, and CNN. The project is meticulously designed to elevate facial recognition accuracy under the constraints of challenging lighting scenarios.
+## Overview
+This project provides a modular system for face detection and recognition using Python, OpenCV, and the face_recognition library. The system is designed to enhance images, detect faces, and recognize faces in a user-friendly manner.
 
-## Key Features:
+## Features
+- **Image Processing**: The `ImageProcessing.py` script contains functions to check image brightness and read images. It also adjusts the brightness of dark images to improve face detection accuracy.
 
-### Modular Structure: 
-The codebase exhibits a well-organized structure across three essential files:
+- **Face Detection**: The `FaceDetection.py` script implements face detection using OpenCV. It utilizes Haar cascades to identify facial features and draw rectangles around detected faces.
 
-- `data_preprocessing.py`: Manages image preprocessing using OpenCV, ensuring standardized and high-quality data.
-- `facial_recognition.py`: Implements a facial recognition system with TensorFlow, incorporating Haar Cascade, MobileNetSSD, and CNN for robust feature extraction.
-- `main.py`: Functions as the primary application file, featuring a simple command-line interface for straightforward testing.
+- **Face Recognition**: The `FaceRecognition.py` script integrates the face_recognition library to recognize faces in an image. It locates facial features and provides the number of faces found in the image.
 
-### Hybrid Methodology: 
-This project pioneers a hybrid methodology, skillfully merging established image processing techniques with the prowess of deep learning via Haar Cascade, MobileNetSSD, and CNN. This synergistic approach significantly enhances facial recognition accuracy in low-light scenarios.
+- **Main Script**: The `main.py` script serves as the entry point to the system. It reads an image, checks for darkness, enhances brightness if needed, performs face detection, and then recognizes faces in the image.
 
+## Requirements
+- Python 3.x
+- OpenCV
+- face_recognition library
 
-https://github.com/opencv/opencv/tree/master/data/haarcascades
-https://github.com/chuanqi305/MobileNet-SSD/blob/master/deploy.prototxt
-https://www.kaggle.com/datasets/soumikrakshit/dark-face-dataset/
-https://www.kaggle.com/datasets/sourabh7211/raw-low-light-smartphone-images/data
-https://www.kaggle.com/code/kerneler/starter-exclusively-dark-image-dataset-843f80cf-5/notebook
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/face-detection-recognition.git
+   cd face-detection-recognition
+2. Install requirement file.
